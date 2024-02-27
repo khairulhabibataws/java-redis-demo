@@ -15,6 +15,6 @@ public class DemoController {
     public String getRedisData(){
         String data = jedis.get("abc");
         System.out.println("data > " + data);
-        return "My Data";
+        return "My Data = " +data;
     }
 }
